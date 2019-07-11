@@ -1,12 +1,13 @@
-import React from 'react';
-import logo from '../../assets/logo.svg';
+import React from '../../../node_modules/react';
 import './App.css';
 import Navbar from '../Common/navbar/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
+    <div className="page-content">
+      <div className="navbar-position">
+        <Navbar></Navbar>
+      </div>
     </div>
   );
 }

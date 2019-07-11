@@ -2,6 +2,7 @@
     padding: 8px;
     color: black;
     border-radius:4px;
+    border:none;
 }
 
 .button--danger{
@@ -10,4 +11,8 @@
 
 .button--success{
     background: green;
+}
+
+.button--warning{
+    background: yellow;
 }
